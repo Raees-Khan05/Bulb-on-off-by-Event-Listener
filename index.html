@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event listeners class</title>
+    <style>
+        #cow_image_parent{
+            height: 400px;
+            width: 370px;
+            margin: 50px auto;
+            
+            /* border: 1px solid black; */
+        }
+        #cow_img{
+            padding-top: 30px;
+        }
+
+        h1{
+            font-size: 30px;
+            text-align: center;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        #new_box{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* border: 1px solid black; */
+        }
+        #off_Btn{
+            height: 70px;
+            width: 110px;
+            font-size: large;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        #on_Btn{
+            height: 70px;
+            width: 110px;
+            font-size: large;
+            font-family: 'Times New Roman', Times, serif;
+        }
+    </style>
+</head>
+<body>
+    
+    <!-- <button onclick="alert('hello everyone')"> hello </button> -->
+    <!-- <button onclick="sayHello()"> hello </button> -->
+    <!-- <button id="btnHello"> Hello </button> -->
+
+    <div id="cow_image_parent">
+       <img  id="cow_img" height="100%" width="100%"  src="images/Untitled-1.png" >
+       <!-- <img src="images/lightbulb-1875247_1280.jpg" alt=""> -->
+    </div>
+        <br>
+
+    
+            <h1>BULB ON / OFF BY ADD EVENT LISTENER</h1>
+        
+
+
+            <div id="new_box">
+                <button id="off_Btn" onclick="off()">click to off</button>
+                <img id="oning" src="images/Untitled-1.png" alt="">
+                <button id="on_Btn" onclick="on()">click to on</button>
+            </div>
+
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
